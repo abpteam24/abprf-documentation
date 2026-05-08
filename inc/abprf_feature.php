@@ -3,8 +3,8 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_feature">
-        <h3 class="_abprf_color_theme">Features</h3>
-        <div class="_divider"></div>
+        <h3 class="_abprf_color_theme">RentalForge - Features</h3>
+        <div class="_divider_xs"></div>
         <i class="_color_light_3_fs_label_mar_tb_d_block">There are several powerful features available with this rental plugin. It provides everything needed to manage property, equipment, and booking rentals with a flexible and user-friendly system. Below is a quick overview of some of the key features currently included in the plugin.</i>
         <ol class="_abprf_list_margin">
             <li><strong class="_abprf_color_theme">All In One Dashboard Menu</strong></li>
