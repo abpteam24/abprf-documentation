@@ -5,7 +5,7 @@
 	<div class="tab_item" data-tabs="#abprf_orders">
 		<h2 class="_abprf_color_theme">Menu : Traveller List </h2>
 		<div class="_divider"></div>
-		<i class="_color_light_3_fs_label_mar_tb_d_block">You can find travelers very easily on this page. And you can download pdf and csv file, send mail to customer, cancel order etc.</i>
+		<i class="_color_7_fs_label_mar_tb_d_block">You can find travelers very easily on this page. And you can download pdf and csv file, send mail to customer, cancel order etc.</i>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/7.1.traveller_list.png"><img class="_img_control_reflex_6" src="#" alt="abprf_list"></div>
 		<ol class="_abprf_list_margin">
 			<li>Here you can select the transport and see its traveler list.</li>
@@ -28,7 +28,7 @@
 			<li>Here you have to click guest check in. Which you can do from frontend in ticket page.</li>
 		</ol>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/7.2.traveller_list.png"><img class="_img_control_reflex_6" src="#" alt="abprf_list"></div>
-		<i class="_color_light_3_fs_label_mar_tb_d_block">After selecting transport in the filter section , you will open some new tabs in the filter list. Which can be seen in the above picture.</i>
+		<i class="_color_7_fs_label_mar_tb_d_block">After selecting transport in the filter section , you will open some new tabs in the filter list. Which can be seen in the above picture.</i>
 		<ol class="_abprf_list_margin">
 			<li>By clicking this button, you will get all the travelers list and all information of this transport in a PDF file. It will be better if you select the transport and journey date and download the PDF. You can change the information you want to show in this file from the traveler lists pdf in the configuration section.</li>
 			<li>By clicking this button, you will get all the travelers Additional service information of this transport in a PDF file. It will be better if you select the transport and journey date and download the PDF.</li>

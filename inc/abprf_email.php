@@ -5,7 +5,7 @@
 	<div class="tab_item" data-tabs="#abprf_email">
 		<h2 class="_abprf_color_theme">Configuration: E-Mail </h2>
 		<div class="_divider"></div>
-		<i class="_color_light_3_fs_label_mar_tb_d_block">These are customer E-Mail Configuration.</i>
+		<i class="_color_7_fs_label_mar_tb_d_block">These are customer E-Mail Configuration.</i>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.10.email.png"><img class="_img_control_reflex_6" src="#" alt="E-Mail"></div>
 		<table class="_abprf_fixed_text_left_mt">
 			<tbody>
@@ -30,7 +30,7 @@
 				<th class="_color_theme">Mail Content</th>
 				<td colspan="3">
 					<span>Please use this shortcode for get real data.</span><br>
-					<span><strong style="color:#e67c30">#transport_name</strong> : In order to print the Transport Name.</span><br>
+					<span><strong style="color:#e67c30">#post_name</strong> : In order to print the Transport Name.</span><br>
 					<span><strong style="color:#e67c30">#pass_name</strong> : In order to print the  Traveller Form.</span><br>
 					<span><strong style="color:#e67c30">#order_id</strong> : In order to print the  Order ID.</span><br>
 					<span><strong style="color:#e67c30">#pass_id</strong> : In order to print the Traveller ID.</span><br>
@@ -49,7 +49,7 @@
 				<th class="_color_theme">Re-send Mail Content</th>
 				<td colspan="3">
 					<span>Please use this shortcode for get real data.</span><br>
-					<span><strong style="color:#e67c30">#transport_name</strong> : In order to print the  Transport Name.</span><br>
+					<span><strong style="color:#e67c30">#post_name</strong> : In order to print the  Transport Name.</span><br>
 					<span><strong style="color:#e67c30">#pass_name</strong> : In order to print the  Traveller Form.</span><br>
 					<span><strong style="color:#e67c30">#order_id</strong> : In order to print the  Order ID.</span><br>
 					<span><strong style="color:#e67c30">#pass_id</strong> : In order to print the  Traveller ID.</span><br>

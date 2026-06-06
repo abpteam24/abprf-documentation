@@ -5,7 +5,7 @@
 	<div class="tab_item" data-tabs="#abprf_rental_forge">
 		<h2 class="_abprf_color_theme">Configuration: Transportation </h2>
 		<div class="_divider"></div>
-		<i class="_color_light_3_fs_label_mar_tb_d_block">These are describe Global Configuration of TransportTicket - Bus, Ferry, Shuttle Booking</i>
+		<i class="_color_7_fs_label_mar_tb_d_block">These are describe Global Configuration of TransportTicket - Bus, Ferry, Shuttle Booking</i>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.4.transportation.png"><img class="_img_control_reflex_6" src="#" alt="Transportation"></div>
 		<table class="_abprf_fixed_text_left_mt">
 			<tbody>
@@ -45,7 +45,7 @@
 		</table>
 		<h2 class="_abprf_color_theme">Configuration: Transport </h2>
 		<div class="_divider"></div>
-		<i class="_color_light_3_fs_label_mar_tb_d_block">These are describe Global Configuration of Transport.</i>
+		<i class="_color_7_fs_label_mar_tb_d_block">These are describe Global Configuration of Transport.</i>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.5.transport.png"><img class="_img_control_reflex_6" src="#" alt="Transport"></div>
 		<table class="_abprf_fixed_text_left_mt">
 			<tbody>

@@ -5,7 +5,7 @@
 	<div class="tab_item" data-tabs="#abprf_status">
 		<h2 class="_abprf_color_theme">Status</h2>
 		<div class="_divider"></div>
-		<i class="_color_light_3_fs_label_mar_tb_d_block">These are describe basic information and tools</i>
+		<i class="_color_7_fs_label_mar_tb_d_block">These are describe basic information and tools</i>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url(ABPRF_DOC_URL . '/') ?>image/5.0.0.tools.png"><img class="_img_control_reflex_6" src="#" alt="Tools Management & Information"></div>
 		<ol class="_abprf_list_margin">
 			<li><strong class="_abprf_color_theme">TransportTicket - Bus, Ferry, Shuttle Booking Version :</strong>&nbsp;&nbsp;Your TransportTicket - Bus, Ferry, Shuttle Booking Plugin Version</li>
@@ -19,7 +19,7 @@
 			<li><strong class="_abprf_color_theme">Number of Transport : </strong>&nbsp;&nbsp;These are describe , Total number of Transport in your site.</li>
 			<li><strong class="_abprf_color_theme">Dummy Import</strong>&nbsp;&nbsp;If you want to create Dummy Transport hit on <strong class="_color_theme">Add New Dummy Transport</strong> .Otherwise, you can it manually .</li>
 		</ol>
-		<i class="_color_light_3_fs_label_mar_tb_d_block_mar_t">Note: Only Woocommerce must be installed to run this plugin . Others settings depends on your minds.</i>
+		<i class="_color_7_fs_label_mar_tb_d_block_mar_t">Note: Only Woocommerce must be installed to run this plugin . Others settings depends on your minds.</i>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url(ABPRF_DOC_URL . '/') ?>image/5.0.1.tools.png"><img class="_img_control_reflex_6" src="#" alt="Tools Management & Information"></div>
 	</div>
 <?php

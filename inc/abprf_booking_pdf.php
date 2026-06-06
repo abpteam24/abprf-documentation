@@ -5,7 +5,7 @@
 	<div class="tab_item" data-tabs="#abprf_booking_pdf">
 		<h2 class="_abprf_color_theme">Configuration: Traveller Lists PDF </h2>
 		<div class="_divider"></div>
-		<i class="_color_light_3_fs_label_mar_tb_d_block">These are Traveller Lists Configuration of PDF file.</i>
+		<i class="_color_7_fs_label_mar_tb_d_block">These are Traveller Lists Configuration of PDF file.</i>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.8.pdf_list.png"><img class="_img_control_reflex_6" src="#" alt="Traveller Lists PDF"></div>
 		<table class="_abprf_fixed_text_left_mt">
 			<tbody>

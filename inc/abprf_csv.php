@@ -5,7 +5,7 @@
 	<div class="tab_item" data-tabs="#abprf_csv">
 		<h2 class="_abprf_color_theme">Configuration: Traveller Lists CSV</h2>
 		<div class="_divider"></div>
-		<i class="_color_light_3_fs_label_mar_tb_d_block">These are Traveller Lists Configuration of CSV file.</i>
+		<i class="_color_7_fs_label_mar_tb_d_block">These are Traveller Lists Configuration of CSV file.</i>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.9.csv.png"><img class="_img_control_reflex_6" src="#" alt="Traveller Lists CSV"></div>
 		<table class="_abprf_fixed_text_left_mt">
 			<tbody>
