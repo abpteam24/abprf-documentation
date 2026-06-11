@@ -31,7 +31,7 @@
 				<td colspan="3">
 					<span>Please use this shortcode for get real data.</span><br>
 					<span><strong style="color:#e67c30">#post_name</strong> : In order to print the Transport Name.</span><br>
-					<span><strong style="color:#e67c30">#pass_name</strong> : In order to print the  Traveller Form.</span><br>
+					<span><strong style="color:#e67c30">#client_name</strong> : In order to print the  Traveller Form.</span><br>
 					<span><strong style="color:#e67c30">#order_id</strong> : In order to print the  Order ID.</span><br>
 					<span><strong style="color:#e67c30">#pass_id</strong> : In order to print the Traveller ID.</span><br>
 					<span><strong style="color:#e67c30">#from</strong> : In order to print the  Boarding.</span><br>
@@ -40,9 +40,9 @@
 					<span><strong style="color:#e67c30">#status</strong> : In order to print the  Order Status.</span><br>
 					<span><strong style="color:#e67c30">#payment</strong> : In order to print the  Payment Method.</span><br>
 					<span><strong style="color:#e67c30">#booking_details</strong> : In order to print the  Booking Details.</span><br>
-					<span><strong style="color:#e67c30">#seat_details</strong> : In order to print the  Ticket Details.</span><br>
+					<span><strong style="color:#e67c30">#rent_details</strong> : In order to print the  Ticket Details.</span><br>
 					<span><strong style="color:#e67c30">#bill_info</strong> : In order to print the  Billing Information.</span><br>
-					<span><strong style="color:#e67c30">#item_price</strong> : In order to print the  Total Price.</span><br>
+					<span><strong style="color:#e67c30">#price_details</strong> : In order to print the  Total Price.</span><br>
 				</td>
 			</tr>
 			<tr>
@@ -50,7 +50,7 @@
 				<td colspan="3">
 					<span>Please use this shortcode for get real data.</span><br>
 					<span><strong style="color:#e67c30">#post_name</strong> : In order to print the  Transport Name.</span><br>
-					<span><strong style="color:#e67c30">#pass_name</strong> : In order to print the  Traveller Form.</span><br>
+					<span><strong style="color:#e67c30">#client_name</strong> : In order to print the  Traveller Form.</span><br>
 					<span><strong style="color:#e67c30">#order_id</strong> : In order to print the  Order ID.</span><br>
 					<span><strong style="color:#e67c30">#pass_id</strong> : In order to print the  Traveller ID.</span><br>
 					<span><strong style="color:#e67c30">#from</strong> : In order to print the  Boarding.</span><br>
@@ -59,9 +59,9 @@
 					<span><strong style="color:#e67c30">#status</strong> : In order to print the  Order Status.</span><br>
 					<span><strong style="color:#e67c30">#payment</strong> : In order to print the  Payment Method.</span><br>
 					<span><strong style="color:#e67c30">#booking_details</strong> : In order to print the  Booking Details.</span><br>
-					<span><strong style="color:#e67c30">#seat_details</strong> : In order to print the  Ticket Details.</span><br>
+					<span><strong style="color:#e67c30">#rent_details</strong> : In order to print the  Ticket Details.</span><br>
 					<span><strong style="color:#e67c30">#bill_info</strong> : In order to print the  Billing Information.</span><br>
-					<span><strong style="color:#e67c30">#item_price</strong> : In order to print the  Total Price.</span><br>
+					<span><strong style="color:#e67c30">#price_details</strong> : In order to print the  Total Price.</span><br>
 				</td>
 			</tr>
 			<tr>
