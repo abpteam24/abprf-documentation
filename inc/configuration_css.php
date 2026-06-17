@@ -4,6 +4,7 @@
 	} ?>
 	<div class="tab_item" data-tabs="#abprf_css_value">
 		<h2 class="_abprf_color_theme">Configuration: CSS Value </h2>
+        <h2 class="_abprf_color_theme"><span class="_mar_r_xs">🎨</span>RentalForge - CSS Value Configuration </h2>
 		<div class="_divider"></div>
 		<i class="_color_7_fs_label_mar_tb_d_block">These are describe CSS Value Configuration . </i>
 		<i class="_color_7_fs_label_mar_tb_d_block">Note: this value applicable only for Transport section area not full site. </i>

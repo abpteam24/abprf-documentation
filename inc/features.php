@@ -127,9 +127,10 @@
             <li><strong class="_abprf_color_theme">Send Email with PDF Attachment - PRO</strong></li>
             <li><strong class="_abprf_color_theme">Resend Email with PDF - PRO</strong></li>
             <li><strong class="_abprf_color_theme">Backend Order Management - PRO</strong></li>
-            <li><strong class="_abprf_color_theme">Tier Pricing System - PRO</strong></li>
-            <li><strong class="_abprf_color_theme">Seasonal Pricing - PRO</strong></li>
-            <li><strong class="_abprf_color_theme">Early Bird Pricing - PRO</strong></li>
+<!--            <li><strong class="_abprf_color_theme">Location Based Price and Stock Management - PRO</strong></li>-->
+<!--            <li><strong class="_abprf_color_theme">Tier Pricing System - PRO</strong></li>-->
+<!--            <li><strong class="_abprf_color_theme">Seasonal Pricing - PRO</strong></li>-->
+<!--            <li><strong class="_abprf_color_theme">Early Bird Pricing - PRO</strong></li>-->
         </ol>
     </div>
 <?php

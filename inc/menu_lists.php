@@ -16,11 +16,10 @@
             <li><strong class="_color_theme"><span class="_mar_r_xs">🔨</span> Post Lists</strong> — Manage all rental posts</li>
             <li><strong class="_color_theme"><span class="_mar_r_xs">🏠</span> Properties</strong> — Manage rental properties and inventory</li>
             <li><strong class="_color_theme"><span class="_mar_r_xs">📋</span> Orders</strong> — View and manage all booking orders</li>
-            <li><strong class="_color_theme"><span class="_mar_r_xs">🏘️</span> Categories</strong> — Create and manage RentalForge categories</li>
+            <li><strong class="_color_theme"><span class="_mar_r_xs">📦</span> Add Order (PRO)</strong> — Manually create orders from admin panel</li>
             <li><strong class="_color_theme"><span class="_mar_r_xs">🌐</span> Global Data</strong> — Configure global settings and shared data</li>
             <li><strong class="_color_theme"><span class="_mar_r_xs">⚙️</span> Configuration</strong> — Manage all plugin configurations and settings</li>
             <li><strong class="_color_theme"><span class="_mar_r_xs">🛡️</span> Status</strong> — System status and health information</li>
-            <li><strong class="_color_theme"><span class="_mar_r_xs">📦</span> Add Order (PRO)</strong> — Manually create orders from admin panel</li>
             <li><strong class="_color_theme"><span class="_mar_r_xs">📚</span> Documentation</strong> — Access plugin documentation and guides</li>
         </ul>
     </div>

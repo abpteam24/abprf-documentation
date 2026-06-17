@@ -3,7 +3,7 @@
 		exit; // Exit if accessed directly
 	} ?>
 	<div class="tab_item" data-tabs="#abprf_slider">
-		<h2 class="_abprf_color_theme">Configuration: Slider </h2>
+        <h2 class="_abprf_color_theme"><span class="_mar_r_xs">🖼️</span>RentalForge - Slider Configuration </h2>
 		<div class="_divider"></div>
 		<i class="_color_7_fs_label_mar_tb_d_block">These are describe Slider Configuration .</i>
 		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.13.slider.png"><img class="_img_control_reflex_6" src="#" alt="Slider"></div>

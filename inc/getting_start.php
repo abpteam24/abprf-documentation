@@ -5,7 +5,7 @@
     <div class="tab_item" data-tabs="#abprf_getting_start">
         <h2 class="_abprf_color_theme">RentalForge - Documentation  </h2>
         <div class="_divider_xs"></div>
-        <i class="_color_7_fs_label_mar_tb_d_block">Thank you so much for choosing our plugin <strong class="_abprf">RentalForge</strong>.</i>
+        <label>Thank you so much for choosing our plugin <strong class="_abprf">RentalForge</strong>.</label>
         <p>This documentation is designed to help you understand this plugin. Please carefully review the documentation to understand how this template is created and how to edit it properly. Basic knowledge of WordPress is required to use this plugin. </p>
         <div class="_divider"></div>
         <ol class="_abprf_list_margin">
