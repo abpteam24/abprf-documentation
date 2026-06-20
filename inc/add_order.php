@@ -28,7 +28,7 @@
             This feature provides complete flexibility for rental businesses, allowing administrators to efficiently manage both online and offline bookings from a single centralized dashboard.
         </label>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/add_order.png">
-            <img class="_img_control_reflex_6" src="#" alt="RentalForge Add Order Dashboard">
+            <img class="_img_control" src="#" alt="RentalForge Add Order Dashboard">
         </div>
     </div>
 <?php

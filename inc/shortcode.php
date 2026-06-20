@@ -210,7 +210,7 @@
                     Display type:
                     <strong class="_abprf_color_theme">gallery, slider</strong> |
                     Default: <strong class="_abprf_color_theme">gallery</strong>
-                    <code>[abprf-gallery style="slider"]</code>
+                    <code>[abprf-gallery slider_style="slider"]</code>
                 </td>
             </tr>
             <tr>

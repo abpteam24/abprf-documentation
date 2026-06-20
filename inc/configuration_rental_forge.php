@@ -44,6 +44,6 @@
             </tr>
             </tbody>
         </table>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/configuration_rental_forge.png"><img class="_img_control_reflex_6" src="#" alt="Transport"></div>
+        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/configuration_rental_forge.png"><img class="_img_control" src="#" alt="Transport"></div>
     </div>
 <?php

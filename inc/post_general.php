@@ -27,7 +27,7 @@
             </li>
         </ul>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/general_configuration.png">
-            <img class="_img_control_reflex_6" src="#" alt="General Configuration Overview">
+            <img class="_img_control" src="#" alt="General Configuration Overview">
         </div>
     </div>
 <?php

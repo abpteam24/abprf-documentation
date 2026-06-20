@@ -7,7 +7,7 @@
         <h2 class="_abprf_color_theme"><span class="_mar_r_xs">📧</span>RentalForge - E-Mail Configuration </h2>
         <div class="_divider"></div>
         <i class="_color_7_fs_label_mar_tb_d_block">These are customer E-Mail Configuration.</i>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.10.email.png"><img class="_img_control_reflex_6" src="#" alt="E-Mail"></div>
+        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.10.email.png"><img class="_img_control" src="#" alt="E-Mail"></div>
         <table class="_abprf_fixed_text_left_mt">
             <tbody>
             <tr>

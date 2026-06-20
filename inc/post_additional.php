@@ -48,7 +48,7 @@
             <li>👉 Scales easily for large rental platforms</li>
         </ul>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/additional.png">
-            <img class="_img_control_reflex_6" src="#" alt="Additional Services Configuration Overview">
+            <img class="_img_control" src="#" alt="Additional Services Configuration Overview">
         </div>
     </div>
 <?php

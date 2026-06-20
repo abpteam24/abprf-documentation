@@ -9,7 +9,7 @@
             The Quick Menu provides fast access to the most commonly used actions, allowing you to create content instantly without navigating through multiple pages.
         </label>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/quick_menu.png">
-            <img class="_img_control_reflex_6" src="#" alt="Quick Menu Overview">
+            <img class="_img_control" src="#" alt="Quick Menu Overview">
         </div>
         <label>
             From this section, you can quickly perform the following actions:

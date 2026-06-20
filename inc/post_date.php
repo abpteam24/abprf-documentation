@@ -37,7 +37,7 @@
             <li>👉 Ideal for large-scale rental and booking systems</li>
         </ul>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/date_config.png">
-            <img class="_img_control_reflex_6" src="#" alt="Date Configuration Overview">
+            <img class="_img_control" src="#" alt="Date Configuration Overview">
         </div>
     </div>
 <?php

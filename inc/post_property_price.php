@@ -27,7 +27,7 @@
             </li>
         </ul>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/property_price.png">
-            <img class="_img_control_reflex_6" src="#" alt="Properties and Price Configuration Overview">
+            <img class="_img_control" src="#" alt="Properties and Price Configuration Overview">
         </div>
     </div>
 <?php

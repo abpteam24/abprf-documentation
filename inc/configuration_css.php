@@ -8,7 +8,7 @@
 		<div class="_divider"></div>
 		<i class="_color_7_fs_label_mar_tb_d_block">These are describe CSS Value Configuration . </i>
 		<i class="_color_7_fs_label_mar_tb_d_block">Note: this value applicable only for Transport section area not full site. </i>
-		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.14.css_value.png"><img class="_img_control_reflex_6" src="#" alt="CSS Value "></div>
+		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.14.css_value.png"><img class="_img_control" src="#" alt="CSS Value "></div>
 		<table class="_abprf_fixed_text_left_mt">
 			<tbody>
 			<tr>

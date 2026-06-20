@@ -38,6 +38,6 @@
             </tr>
             </tbody>
         </table>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/pdf.png"><img class="_img_control_reflex_6" src="#" alt="PDF"></div>
+        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/pdf.png"><img class="_img_control" src="#" alt="PDF"></div>
     </div>
 <?php

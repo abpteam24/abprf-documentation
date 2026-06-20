@@ -23,6 +23,6 @@
             <li><strong class="_abprf_color_theme">Dummy Import :</strong>&nbsp;&nbsp;Import sample rental data to quickly explore RentalForge features and configurations. This is useful for testing, demonstrations, and initial setup.</li>
         </ol>
         <label><strong>Note:</strong> WooCommerce must be installed and activated for RentalForge to function properly. All other tools and pages are optional and can be configured based on your business requirements.</label>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/status.png"><img class="_img_control_reflex_6" src="#" alt="Tools Management & Information"></div>
+        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/status.png"><img class="_img_control" src="#" alt="Tools Management & Information"></div>
     </div>
 <?php

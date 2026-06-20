@@ -48,7 +48,7 @@
             <li>👉 Scalable system for large rental platforms</li>
         </ul>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/client_form.png">
-            <img class="_img_control_reflex_6" src="#" alt="Client Forms Configuration Overview">
+            <img class="_img_control" src="#" alt="Client Forms Configuration Overview">
         </div>
     </div>
 <?php

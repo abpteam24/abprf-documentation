@@ -80,7 +80,7 @@
             <li>👉 Optimized performance with pagination support</li>
         </ul>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/property_list.png">
-            <img class="_img_control_reflex_6" src="#" alt="RentalForge Property List Overview">
+            <img class="_img_control" src="#" alt="RentalForge Property List Overview">
         </div>
     </div>
 <?php

@@ -9,7 +9,7 @@
             Here you can view all RentalForge posts in one place. You can easily create, clone, edit, restore, or delete posts. Each post includes a short summary, shortcode usage, total properties/tools count, status, and other important rental details for quick and efficient management.
         </label>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/post_lists.png">
-            <img class="_img_control_reflex_6" src="#" alt="Post Lists Overview">
+            <img class="_img_control" src="#" alt="Post Lists Overview">
         </div>
         <ul class="_abprf_list_margin_xs">
             <li>

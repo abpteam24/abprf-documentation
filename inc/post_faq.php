@@ -48,7 +48,7 @@
             <li>👉 Provides a flexible and scalable system</li>
         </ul>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/faq_configuration.png">
-            <img class="_img_control_reflex_6" src="#" alt="FAQ Configuration Overview">
+            <img class="_img_control" src="#" alt="FAQ Configuration Overview">
         </div>
     </div>
 <?php

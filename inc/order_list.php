@@ -80,7 +80,7 @@
             <li>👉 Easy order management with minimal effort</li>
         </ul>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/order_list.png">
-            <img class="_img_control_reflex_6" src="#" alt="RentalForge Order List Overview">
+            <img class="_img_control" src="#" alt="RentalForge Order List Overview">
         </div>
     </div>
 <?php

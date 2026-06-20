@@ -9,7 +9,7 @@
             After installing RentalForge, you will get a dedicated admin dashboard menu that centralizes all rental management features in one place. You can customize the menu label and icon from the Icon & Label Configuration settings. All plugin modules are organized into structured tabs under this main menu, allowing you to manage bookings, properties, pricing, availability, inventory, orders, and system settings from a clean and user-friendly interface.
         </label>
         <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/menu_lists.png">
-            <img class="_img_control_reflex_6" src="#" alt="RentalForge Menu Overview">
+            <img class="_img_control" src="#" alt="RentalForge Menu Overview">
         </div>
         <ul class="_abprf_list_margin">
             <li><strong class="_color_theme"><span class="_mar_r_xs">🪜</span> Top Quick Menu</strong></li>
