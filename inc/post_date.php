@@ -36,7 +36,7 @@
             <li>👉 Provides full flexibility for individual property control</li>
             <li>👉 Ideal for large-scale rental and booking systems</li>
         </ul>
-        <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/date_config.png">
+        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/date_config.png">
             <img class="_img_control" src="#" alt="Date Configuration Overview">
         </div>
     </div>

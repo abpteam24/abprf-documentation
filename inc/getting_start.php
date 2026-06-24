@@ -14,6 +14,6 @@
             <li><strong class="_abprf_color_theme">Created : </strong>&nbsp;&nbsp;06 ,June 2026</li>
             <li><strong class="_abprf_color_theme">Last Updated : </strong>&nbsp;&nbsp;06 ,June 2026</li>
         </ol>
-        <div class="_section_alert"><span class="_abprf">If you have any questions that are beyond the scope of this help file, don't hesitate to email through the  <a target="_blank" href="https://abp-team.com/support-forum/">Support Page</a>.</span></div>
+        <div class="_section_alert"><span class="_abprf">If you have any questions that are beyond the scope of this help file, don't hesitate to email through the  <a target="_blank" href="https://abp-team.com/support-desk/">Support Page</a>.</span></div>
     </div>
 <?php

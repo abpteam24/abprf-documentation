@@ -26,7 +26,7 @@
                 Enable or disable location features for the post type. You can select available locations from the list or add new locations instantly for better flexibility.
             </li>
         </ul>
-        <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/general_configuration.png">
+        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/general_configuration.png">
             <img class="_img_control" src="#" alt="General Configuration Overview">
         </div>
     </div>

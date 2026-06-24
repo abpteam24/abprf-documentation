@@ -47,7 +47,7 @@
             <li>👉 Full flexibility for different property requirements</li>
             <li>👉 Scalable system for large rental platforms</li>
         </ul>
-        <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/client_form.png">
+        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/client_form.png">
             <img class="_img_control" src="#" alt="Client Forms Configuration Overview">
         </div>
     </div>

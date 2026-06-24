@@ -79,7 +79,7 @@
             <li>👉 Optimized performance with pagination support</li>
             <li>👉 Easy order management with minimal effort</li>
         </ul>
-        <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/order_list.png">
+        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/order_list.png">
             <img class="_img_control" src="#" alt="RentalForge Order List Overview">
         </div>
     </div>

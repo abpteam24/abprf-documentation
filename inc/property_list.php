@@ -79,7 +79,7 @@
             <li>👉 Scalable system for large rental marketplaces</li>
             <li>👉 Optimized performance with pagination support</li>
         </ul>
-        <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/property_list.png">
+        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/property_list.png">
             <img class="_img_control" src="#" alt="RentalForge Property List Overview">
         </div>
     </div>

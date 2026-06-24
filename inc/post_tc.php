@@ -47,7 +47,7 @@
             <li>👉 Allows full customization per property</li>
             <li>👉 Improves compliance and user transparency</li>
         </ul>
-        <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/terms_condition.png">
+        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/terms_condition.png">
             <img class="_img_control" src="#" alt="Terms & Conditions Configuration Overview">
         </div>
     </div>

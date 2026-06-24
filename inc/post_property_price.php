@@ -26,7 +26,7 @@
                 Permanently remove a property from the system when it is no longer required.
             </li>
         </ul>
-        <div class="rf_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/property_price.png">
+        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/property_price.png">
             <img class="_img_control" src="#" alt="Properties and Price Configuration Overview">
         </div>
     </div>
