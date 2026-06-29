@@ -3,12 +3,12 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_rental_forge">
-        <h2 class="_abprf_color_theme">RentalForge Configuration</h2>
+        <h2 class="_abp_color_theme">RentalForge Configuration</h2>
         <div class="_divider"></div>
         <i class="_color_7_fs_label_mar_tb_d_block">
             Configure the core settings of RentalForge from this section. These global options control dashboard labels, menu appearance, URLs, icons, and booking behavior across the entire plugin.
         </i>
-        <table class="_abprf_fixed_text_left_mt">
+        <table class="_abp_fixed_text_left_mt">
             <tbody>
             <tr>
                 <th class="_color_theme">Booked Status</th>
@@ -21,7 +21,7 @@
             <tr>
                 <th class="_color_theme">Slug</th>
                 <td colspan="3">
-                    Define a custom URL slug for RentalForge pages. After updating the slug, refresh your permalinks by navigating to <strong class="_abprf_color_theme">Settings → Permalinks</strong> and clicking the <strong>Save Changes</strong> button.
+                    Define a custom URL slug for RentalForge pages. After updating the slug, refresh your permalinks by navigating to <strong class="_abp_color_theme">Settings → Permalinks</strong> and clicking the <strong>Save Changes</strong> button.
                 </td>
             </tr>
             <tr>
@@ -39,7 +39,7 @@
             <tr>
                 <th class="_color_theme">Category Slug</th>
                 <td colspan="3">
-                    Set a custom URL slug for categories. After making changes, refresh your permalinks by navigating to <strong class="_abprf_color_theme">Settings → Permalinks</strong> and clicking the <strong>Save Changes</strong> button.
+                    Set a custom URL slug for categories. After making changes, refresh your permalinks by navigating to <strong class="_abp_color_theme">Settings → Permalinks</strong> and clicking the <strong>Save Changes</strong> button.
                 </td>
             </tr>
             </tbody>

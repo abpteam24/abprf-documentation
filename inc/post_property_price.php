@@ -3,12 +3,12 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_property_price">
-        <h3 class="_abprf_color_theme">Properties and Price Configuration</h3>
+        <h3 class="_abp_color_theme">Properties and Price Configuration</h3>
         <div class="_divider_xs"></div>
         <label>
             The Properties and Price Configuration section allows you to manage how each property behaves in terms of availability, rental rules, and pricing structure.
         </label>
-        <ul class="_abprf_list_margin_xs">
+        <ul class="_abp_list_margin_xs">
             <li>
                 <strong class="_color_theme">➕ Add New Property:</strong>
                 Create a new property with full configuration, including pricing rules, availability settings, and rental conditions.

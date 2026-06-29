@@ -3,14 +3,14 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_properties">
-        <h3 class="_abprf_color_theme">🏠 Properties List</h3>
+        <h3 class="_abp_color_theme">🏠 Properties List</h3>
         <div class="_divider_xs"></div>
         <label>
             The Properties List section allows you to manage all rental properties in a centralized dashboard.
             From here, you can create, edit, clone, delete, filter, and organize properties efficiently across multiple posts.
         </label>
-        <h6 class="_abprf">📋 Key Features of Property Management</h6>
-        <ul class="_abprf_list_margin_xs">
+        <h6 class="_abp">📋 Key Features of Property Management</h6>
+        <ul class="_abp_list_margin_xs">
             <li>
                 <strong class="_color_theme">➕ Add New Property:</strong>
                 Create a new property with full configuration including pricing rules, availability calendar, rental conditions, and booking settings.
@@ -32,8 +32,8 @@
                 Move a property from one post to another post without losing any configuration, pricing, or booking data.
             </li>
         </ul>
-        <h6 class="_abprf">🔎 Advanced Filtering & Management</h6>
-        <ul class="_abprf_list_margin_xs">
+        <h6 class="_abp">🔎 Advanced Filtering & Management</h6>
+        <ul class="_abp_list_margin_xs">
             <li>
                 👉 Filter properties by <strong>Post</strong> to view only properties assigned to a specific post.
             </li>
@@ -47,8 +47,8 @@
                 👉 Bulk actions support (delete, move, update status).
             </li>
         </ul>
-        <h6 class="_abprf">🧭 Post-wise Property Mapping</h6>
-        <ul class="_abprf_list_margin_xs">
+        <h6 class="_abp">🧭 Post-wise Property Mapping</h6>
+        <ul class="_abp_list_margin_xs">
             <li>
                 Each property is assigned to a specific post, allowing structured organization of rental items.
             </li>
@@ -59,8 +59,8 @@
                 This helps manage multi-category rental systems such as vehicles, equipment, or real estate separately.
             </li>
         </ul>
-        <h6 class="_abprf">📄 Pagination & Performance</h6>
-        <ul class="_abprf_list_margin_xs">
+        <h6 class="_abp">📄 Pagination & Performance</h6>
+        <ul class="_abp_list_margin_xs">
             <li>
                 Property list supports pagination for better performance and usability.
             </li>
@@ -71,8 +71,8 @@
                 Optimized query system ensures smooth admin experience even with thousands of properties.
             </li>
         </ul>
-        <h6 class="_abprf">🚀 Benefits</h6>
-        <ul class="_abprf_list_margin_xs">
+        <h6 class="_abp">🚀 Benefits</h6>
+        <ul class="_abp_list_margin_xs">
             <li>👉 Centralized property management system</li>
             <li>👉 Faster workflow with clone and transfer features</li>
             <li>👉 Better organization using post-based grouping</li>

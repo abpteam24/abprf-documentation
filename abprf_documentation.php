@@ -48,13 +48,13 @@
                         <div class="_abp_panel">
                             <!-- HEADER -->
                             <div class="_panel_head _fd_column">
-                                <h3 class="_abprf_color_11_mar_b_xs"><span class="_mar_r_xs">📘</span>RentalForge Documentation</h3>
-                                <i class="_abprf_text_center">RentalForge is a WooCommerce-based WordPress rental plugin that helps you manage property, equipment, availability, and bookings from a single unified dashboard. </i>
+                                <h3 class="_abp_color_11_mar_b_xs"><span class="_mar_r_xs">📘</span>RentalForge Documentation</h3>
+                                <i class="_abp_text_center">RentalForge is a WooCommerce-based WordPress rental plugin that helps you manage property, equipment, availability, and bookings from a single unified dashboard. </i>
                             </div>
                             <div class="_panel_body_ov_initial">
                                 <div class="abprf_tabs tab_left">
                                     <!-- LEFT MENU -->
-                                    <ul class="_abprf_bg_light tab_lists">
+                                    <ul class="_abp_bg_light tab_lists">
                                         <li data-tabs-target="#abprf_getting_start"><span class="_mar_r_xs">🚀</span>Getting Started</li>
                                         <li data-tabs-target="#abprf_feature"><span class="_mar_r_xs">⭐</span> Features</li>
                                         <li data-tabs-target="#abprf_application"><span class="_mar_r_xs">📌</span> Applications</li>
@@ -63,7 +63,7 @@
                                         <!-- POST SECTION -->
                                         <li>
                                             <div class="_fj_between" data-collapse-target="#display_abprf_post" data-tabs-target="#abprf_post" data-open-icon="fas fa-minus" data-close-icon="fas fa-plus"> 📝 Post Management <span data-icon class="fas fa-plus"></span></div>
-                                            <ul class="_abprf_bg_5_pad_l" data-collapse="#display_abprf_post">
+                                            <ul class="_abp_bg_5_pad_l" data-collapse="#display_abprf_post">
                                                 <li data-tabs-target="#abprf_general">⚙️ General Settings</li>
                                                 <li data-tabs-target="#abprf_property_price">💰 Properties & Pricing</li>
                                                 <li data-tabs-target="#abprf_date">📅 Date Configuration</li>
@@ -83,7 +83,7 @@
                                                 <div><span class="_mar_r_xs">🌐 </span>Global Data</div>
                                                 <span data-icon class="fas fa-plus"></span>
                                             </div>
-                                            <ul class="_abprf_bg_5_pad_l" data-collapse="#display_abprf_global">
+                                            <ul class="_abp_bg_5_pad_l" data-collapse="#display_abprf_global">
                                                 <li data-tabs-target="#abprf_date_global"><span class="_mar_r_xs">📅 </span>Dates</li>
                                                 <li data-tabs-target="#abprf_additional_global"><span class="_mar_r_xs">💰</span>Additional services</li>
                                                 <li data-tabs-target="#abprf_client_form_global"><span class="_mar_r_xxs">📋</span>Client Form</li>
@@ -101,7 +101,7 @@
                                                 <div><span class="_mar_r_xs">⚙️ </span>Configuration</div>
                                                 <span data-icon class="fas fa-plus"></span>
                                             </div>
-                                            <ul class="_abprf_bg_5_pad_l" data-collapse="#display_abprf_configuration">
+                                            <ul class="_abp_bg_5_pad_l" data-collapse="#display_abprf_configuration">
                                                 <li data-tabs-target="#abprf_rental_forge"><span class="_mar_r_xs">🛠️ </span>RentalForge</li>
                                                 <li data-tabs-target="#abprf_pdf"><span class="_mar_r_xs">📄</span> PDF (PRO)</li>
                                                 <li data-tabs-target="#abprf_booking_pdf"><span class="_mar_r_xs">📑</span> Order Lists PDF (PRO)</li>

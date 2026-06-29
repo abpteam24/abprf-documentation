@@ -3,7 +3,7 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_menu_lists">
-        <h3 class="_abprf_color_theme">RentalForge - Menu</h3>
+        <h3 class="_abp_color_theme">RentalForge - Menu</h3>
         <div class="_divider_xs"></div>
         <label>
             After installing RentalForge, you will get a dedicated admin dashboard menu that centralizes all rental management features in one place. You can customize the menu label and icon from the Icon & Label Configuration settings. All plugin modules are organized into structured tabs under this main menu, allowing you to manage bookings, properties, pricing, availability, inventory, orders, and system settings from a clean and user-friendly interface.
@@ -11,7 +11,7 @@
         <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/menu_lists.png">
             <img class="_img_control" src="#" alt="RentalForge Menu Overview">
         </div>
-        <ul class="_abprf_list_margin">
+        <ul class="_abp_list_margin">
             <li><strong class="_color_theme"><span class="_mar_r_xs">🪜</span> Top Quick Menu</strong></li>
             <li><strong class="_color_theme"><span class="_mar_r_xs">🔨</span> Post Lists</strong> — Manage all rental posts</li>
             <li><strong class="_color_theme"><span class="_mar_r_xs">🏠</span> Properties</strong> — Manage rental properties and inventory</li>

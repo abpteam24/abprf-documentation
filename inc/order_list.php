@@ -3,18 +3,18 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_orders">
-        <h3 class="_abprf_color_theme">📋 Orders List</h3>
+        <h3 class="_abp_color_theme">📋 Orders List</h3>
         <div class="_divider_xs"></div>
         <label>
             The Orders List section provides a complete overview of all rental bookings and transactions.
             From here, you can manage, track, filter, and review all customer orders in a centralized dashboard.
             It is designed to handle large-scale rental operations with advanced filtering and pagination support.
         </label>
-        <h6 class="_abprf">🔎 Advanced Order Filtering System</h6>
+        <h6 class="_abp">🔎 Advanced Order Filtering System</h6>
         <label>
             RentalForge provides a powerful filtering system that allows you to quickly find specific orders based on multiple criteria.
         </label>
-        <ul class="_abprf_list_margin_xs">
+        <ul class="_abp_list_margin_xs">
             <li>
                 👉 <strong>Post Name:</strong> Filter orders by related rental post or listing.
             </li>
@@ -49,21 +49,21 @@
                 👉 <strong>Billing Phone:</strong> Search orders using customer phone number.
             </li>
         </ul>
-        <h6 class="_abprf">📊 Order Management Features</h6>
-        <ul class="_abprf_list_margin_xs">
+        <h6 class="_abp">📊 Order Management Features</h6>
+        <ul class="_abp_list_margin_xs">
             <li>👉 View complete order details including customer, property, pricing, and booking information</li>
             <li>👉 Track order status and rental activity in real-time</li>
             <li>👉 Access full billing and customer information per order</li>
             <li>👉 Organized table view for easy scanning and management</li>
         </ul>
-        <h6 class="_abprf">📄 Pagination & Performance</h6>
-        <ul class="_abprf_list_margin_xs">
+        <h6 class="_abp">📄 Pagination & Performance</h6>
+        <ul class="_abp_list_margin_xs">
             <li>👉 Fully paginated order system for handling large datasets efficiently</li>
             <li>👉 Optimized query structure for fast loading performance</li>
             <li>👉 Smooth navigation between pages without performance degradation</li>
         </ul>
-        <h6 class="_abprf">🗑️ Order Actions</h6>
-        <ul class="_abprf_list_margin_xs">
+        <h6 class="_abp">🗑️ Order Actions</h6>
+        <ul class="_abp_list_margin_xs">
             <li>
                 👉 <strong>Delete Order:</strong> Permanently remove an order from the system when no longer needed.
             </li>
@@ -71,8 +71,8 @@
                 👉 View full order details before performing any action to ensure safe management.
             </li>
         </ul>
-        <h6 class="_abprf">🚀 Benefits</h6>
-        <ul class="_abprf_list_margin_xs">
+        <h6 class="_abp">🚀 Benefits</h6>
+        <ul class="_abp_list_margin_xs">
             <li>👉 Advanced filtering for fast order tracking</li>
             <li>👉 Full visibility of customer and booking data</li>
             <li>👉 Scalable system for high-volume rental businesses</li>
