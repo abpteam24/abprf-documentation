@@ -30,8 +30,8 @@
 			}
 			public function menu_tab( $active_tab ): void {
 				?>
-                <a href="<?php echo esc_url( ABPRF_Function::build_url( 'documentation' ) ); ?>" class="_btn_info <?php echo esc_attr( $active_tab == 'documentation' ? 'abp_active' : '' ); ?>">
-                    <span class="_mar_r_xxs">📚</span><?php esc_html_e( 'Documentation', 'abprf_documentation' ); ?>
+                <a href="<?php echo esc_url( ABPRF_Function::build_url( 'documentation' ) ); ?>" class="_btn_white_xs <?php echo esc_attr( $active_tab == 'documentation' ? 'abp_active' : '' ); ?>">
+                    <span>📚</span><?php esc_html_e( 'Documentation', 'abprf_documentation' ); ?>
                 </a>
 				<?php
 			}
