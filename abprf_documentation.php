@@ -80,7 +80,7 @@
                                         <!-- GLOBAL DATA -->
                                         <li>
                                             <div class="_fj_between" data-collapse-target="#display_abprf_global" data-tabs-target="#abprf_global_data" data-open-icon="fas fa-minus" data-close-icon="fas fa-plus">
-                                                <div><span class="_mar_r_xs">🌐 </span>Global Data</div>
+                                                <div class="_gap_xs"><span>🌐 </span>Global Data</div>
                                                 <span data-icon class="fas fa-plus"></span>
                                             </div>
                                             <ul class="_abp_bg_5_pad_l" data-collapse="#display_abprf_global">
