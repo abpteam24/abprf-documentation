@@ -3,12 +3,12 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_general">
-        <h3 class="_abp_color_theme">General Configuration</h3>
+        <h3 class="abp_color_theme">General Configuration</h3>
         <div class="_divider_xs"></div>
         <label>
             The General Configuration section provides centralized controls to manage how a post behaves and which features are enabled within the system. From here, you can easily enable or disable key modules and manage related settings without leaving the post details page.
         </label>
-        <ul class="_abp_list_margin_xs">
+        <ul class="abp_list_margin_xs">
             <li>
                 <strong class="_color_theme">👉 Rent Continue ON/OFF:</strong>
                 Enable or disable the rent continuation feature. When enabled, users can extend rental duration without creating a new booking.

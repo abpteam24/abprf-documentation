@@ -3,7 +3,7 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_configuration">
-        <h2 class="_abp_color_theme">Global Configuration</h2>
+        <h2 class="abp_color_theme">Global Configuration</h2>
         <div class="_divider"></div>
         <i class="_text_color_1 _fs_label_mar_tb_d_block">
             Global Configuration allows you to define the default settings for your entire RentalForge system. These settings will be automatically applied across all rental items, properties, vehicles, equipment, and booking resources unless overridden by item-specific configurations.

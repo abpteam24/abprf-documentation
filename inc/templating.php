@@ -3,7 +3,7 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_template">
-        <h2 class="_abp_color_theme">RentalForge: Templating</h2>
+        <h2 class="abp_color_theme">RentalForge: Templating</h2>
         <div class="_divider"></div>
         <i class="_color_7_fs_label_mar_tb_d_block">
             RentalForge provides a powerful template override system that allows you to customize plugin design, classes, icons, and frontend structure according to your requirements.

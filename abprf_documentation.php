@@ -41,20 +41,20 @@
 
 				return ob_get_clean();
 			}
-			public function documentation() {
+			public function documentation(): void {
 				?>
                 <div class="abprf_area documentation">
                     <div class="abprf_container">
-                        <div class="_abp_panel">
+                        <div class="abp_panel">
                             <!-- HEADER -->
                             <div class="_panel_head _fd_column">
-                                <h3 class="_abp_color_11_mar_b_xs"><span class="_mar_r_xs">📘</span>RentalForge Documentation</h3>
-                                <i class="_abp_text_center">RentalForge is a WooCommerce-based WordPress rental plugin that helps you manage property, equipment, availability, and bookings from a single unified dashboard. </i>
+                                <h3 class="abp_color_11_mar_b_xs_gap_xs">📘RentalForge Documentation</h3>
+                                <i class="abp_text_center">RentalForge is a WooCommerce-based WordPress rental plugin that helps you manage property, equipment, availability, and bookings from a single unified dashboard. </i>
                             </div>
                             <div class="_panel_body_ov_initial">
                                 <div class="abp_tabs tab_left">
                                     <!-- LEFT MENU -->
-                                    <ul class="_abp_bg_light tab_lists">
+                                    <ul class="abp_bg_light tab_lists">
                                         <li data-tabs-target="#abprf_getting_start"><span class="_mar_r_xs">🚀</span>Getting Started</li>
                                         <li data-tabs-target="#abprf_feature"><span class="_mar_r_xs">⭐</span> Features</li>
                                         <li data-tabs-target="#abprf_application"><span class="_mar_r_xs">📌</span> Applications</li>
@@ -63,7 +63,7 @@
                                         <!-- POST SECTION -->
                                         <li>
                                             <div class="_fj_between" data-collapse-target="#display_abprf_post" data-tabs-target="#abprf_post" data-open-icon="fas fa-minus" data-close-icon="fas fa-plus"> 📝 Post Management <span data-icon class="fas fa-plus"></span></div>
-                                            <ul class="_abp_bg_5_pad_l" data-collapse="#display_abprf_post">
+                                            <ul class="abp_bg_5_pad_l" data-collapse="#display_abprf_post">
                                                 <li data-tabs-target="#abprf_general">⚙️ General Settings</li>
                                                 <li data-tabs-target="#abprf_property_price">💰 Properties & Pricing</li>
                                                 <li data-tabs-target="#abprf_date">📅 Date Configuration</li>
@@ -83,39 +83,39 @@
                                                 <div class="_gap_xs"><span>🌐 </span>Global Data</div>
                                                 <span data-icon class="fas fa-plus"></span>
                                             </div>
-                                            <ul class="_abp_bg_5_pad_l" data-collapse="#display_abprf_global">
-                                                <li data-tabs-target="#abprf_date_global"><span class="_mar_r_xs">📅 </span>Dates</li>
-                                                <li data-tabs-target="#abprf_additional_global"><span class="_mar_r_xs">💰</span>Additional services</li>
-                                                <li data-tabs-target="#abprf_client_form_global"><span class="_mar_r_xxs">📋</span>Client Form</li>
-                                                <li data-tabs-target="#abprf_tc_global"><span class="_mar_r_xxs">🤝</span>T&C</li>
-                                                <li data-tabs-target="#abprf_faq_global"><span class="_mar_r_xs">❓</span>FAQ</li>
-                                                <li data-tabs-target="#abprf_category_global"><span class="_mar_r_xxs">🏘️</span>Category</li>
-                                                <li data-tabs-target="#abprf_location_global"><span class="_mar_r_xs">📍</span>Location</li>
-                                                <li data-tabs-target="#abprf_brand_global"><span class="_mar_r_xs">🏷️ </span>Brands</li>
-                                                <li data-tabs-target="#abprf_feature_global"><span class="_mar_r_xxs">🔗</span>Feature</li>
+                                            <ul class="abp_bg_5_pad_l" data-collapse="#display_abprf_global">
+                                                <li data-tabs-target="#abprf_date_global">📅 Dates</li>
+                                                <li data-tabs-target="#abprf_additional_global">💰Additional services</li>
+                                                <li data-tabs-target="#abprf_client_form_global">📋Client Form</li>
+                                                <li data-tabs-target="#abprf_tc_global">🤝T&C</li>
+                                                <li data-tabs-target="#abprf_faq_global">❓FAQ</li>
+                                                <li data-tabs-target="#abprf_category_global">🏘️Category</li>
+                                                <li data-tabs-target="#abprf_location_global">📍Location</li>
+                                                <li data-tabs-target="#abprf_brand_global">🏷️ Brands</li>
+                                                <li data-tabs-target="#abprf_feature_global">🔗Feature</li>
                                             </ul>
                                         </li>
                                         <!-- CONFIGURATION -->
                                         <li>
                                             <div class="_fj_between" data-collapse-target="#display_abprf_configuration" data-tabs-target="#abprf_configuration" data-open-icon="fas fa-minus" data-close-icon="fas fa-plus">
-                                                <div><span class="_mar_r_xs">⚙️ </span>Configuration</div>
+                                                <div class="_gap_xs">⚙️ Configuration</div>
                                                 <span data-icon class="fas fa-plus"></span>
                                             </div>
-                                            <ul class="_abp_bg_5_pad_l" data-collapse="#display_abprf_configuration">
-                                                <li data-tabs-target="#abprf_rental_forge"><span class="_mar_r_xs">🛠️ </span>RentalForge</li>
-                                                <li data-tabs-target="#abprf_pdf"><span class="_mar_r_xs">📄</span> PDF (PRO)</li>
-                                                <li data-tabs-target="#abprf_booking_pdf"><span class="_mar_r_xs">📑</span> Order Lists PDF (PRO)</li>
-                                                <li data-tabs-target="#abprf_csv"><span class="_mar_r_xs">📑</span> Order Lists CSV (PRO)</li>
-                                                <li data-tabs-target="#abprf_email"><span class="_mar_r_xs">📧</span> E-mail (PRO)</li>
-                                                <li data-tabs-target="#abprf_slider"><span class="_mar_r_xs">🖼️ </span>Slider</li>
-                                                <li data-tabs-target="#abprf_contact"><span class="_mar_r_xs">☎️ </span>Contact Information</li>
-                                                <li data-tabs-target="#abprf_css_value"><span class="_mar_r_xs">🎨</span> CSS Property</li>
+                                            <ul class="abp_bg_5_pad_l" data-collapse="#display_abprf_configuration">
+                                                <li data-tabs-target="#abprf_rental_forge">🛠️ RentalForge</li>
+                                                <li data-tabs-target="#abprf_pdf">📄PDF (PRO)</li>
+                                                <li data-tabs-target="#abprf_booking_pdf">📑 Order Lists PDF (PRO)</li>
+                                                <li data-tabs-target="#abprf_csv">📑 Order Lists CSV (PRO)</li>
+                                                <li data-tabs-target="#abprf_email">📧 E-mail (PRO)</li>
+                                                <li data-tabs-target="#abprf_slider">🖼️ Slider</li>
+                                                <li data-tabs-target="#abprf_contact">☎️ Contact Information</li>
+                                                <li data-tabs-target="#abprf_css_value">🎨 CSS Property</li>
                                             </ul>
                                         </li>
-                                        <li data-tabs-target="#abprf_status"><span class="_mar_r_xs">🛡️</span> Status</li>
-                                        <li data-tabs-target="#abprf_shortcode"><span class="_mar_r_xs">🔗</span> Shortcodes</li>
-                                        <li data-tabs-target="#abprf_template"><span class="_mar_r_xs">🧩</span> Templating</li>
-                                        <li data-tabs-target="#abprf_translate"><span class="_mar_r_xs">🌍</span>Translate</li>
+                                        <li data-tabs-target="#abprf_status">🛡️Status</li>
+                                        <li data-tabs-target="#abprf_shortcode">🔗Shortcodes</li>
+                                        <li data-tabs-target="#abprf_template">🧩 Templating</li>
+                                        <li data-tabs-target="#abprf_translate">🌍Translate</li>
                                     </ul>
                                     <!-- CONTENT -->
                                     <div class="tab_content">

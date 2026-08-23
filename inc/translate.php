@@ -3,13 +3,13 @@
 		exit; // Exit if accessed directly
 	} ?>
     <div class="tab_item" data-tabs="#abprf_translate">
-        <h2 class="_abp_color_theme">RentalForge: Translate</h2>
+        <h2 class="abp_color_theme">RentalForge: Translate</h2>
         <div class="_divider"></div>
         <i class="_color_7_fs_label_mar_tb_d_block">
             RentalForge is fully translation-ready and can be translated using any WordPress translation plugin. However, we strongly recommend using the Loco Translate plugin for the best experience and easiest workflow.
         </i>
-        <h5 class="_abp_color_theme">To translate RentalForge:</h5>
-        <ol class="_abp_list_margin">
+        <h5 class="abp_color_theme">To translate RentalForge:</h5>
+        <ol class="abp_list_margin">
             <li>Go to <strong>Plugins → Add New</strong> from your WordPress dashboard.</li>
             <li>Search for <strong>Loco Translate</strong>, then install and activate the plugin.</li>
             <li>Navigate to <strong>Loco Translate → Plugins</strong>.</li>
