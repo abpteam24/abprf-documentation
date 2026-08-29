@@ -44,7 +44,7 @@
 			public function documentation(): void {
 				?>
                 <div class="abprf_area documentation">
-                    <div class="abprf_container">
+                    <div class="abp_container">
                         <div class="abp_panel">
                             <!-- HEADER -->
                             <div class="_panel_head _fd_column">
