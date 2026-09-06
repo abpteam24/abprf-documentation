@@ -2,53 +2,50 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abprf_faq">
-        <h2 class="abp_color_theme">FAQ Configuration</h2>
-        <div class="_divider_xxs"></div>
-        <label>
-            The FAQ Configuration system allows you to manage frequently asked questions and answers for your clients. Like Additional Services, this feature supports both global and post-level configuration for maximum flexibility.
-        </label>
-        <h6 class="abp_color_theme_gap_xs">🌍 Global FAQ</h6>
-        <i>
-            From the Global Configuration panel, you can create and manage a standard set of FAQs that will be used across all posts.
-        </i>
-        <ul class="abp_list_margin_xs">
-            <li>👉 Define global questions and answers</li>
-            <li>👉 Enable or disable the FAQ section globally</li>
-            <li>👉 Maintain a consistent FAQ structure for all properties</li>
+    <section class="abrf-page" data-abrf-tab="#abrf_faq">
+        <div class="abrf-page-head">
+            <h2>❓ FAQ Configuration</h2>
+        </div>
+        <div class="abrf-divider"></div>
+        <p class="abrf-lead">The FAQ Configuration system allows you to manage frequently asked questions and answers for your clients. Like Additional Services, this feature supports both global and post-level configuration for maximum flexibility.</p>
+        <h4 class="abrf-h4">🌍 Global FAQ</h4>
+        <p class="abrf-p">From the Global Configuration panel, you can create and manage a standard set of FAQs that will be used across all posts.</p>
+        <ul class="abrf-list">
+            <li><strong>👉</strong> Define global questions and answers</li>
+            <li><strong>👉</strong> Enable or disable the FAQ section globally</li>
+            <li><strong>👉</strong> Maintain a consistent FAQ structure for all properties</li>
         </ul>
-        <h6 class="abp_color_theme_gap_xs">🏠 Custom Post-Level FAQ</h6>
-        <i>
-            Each individual post can also have its own custom FAQ configuration.
-        </i>
-        <ul class="abp_list_margin_xs">
-            <li>👉 Import FAQs from global configuration</li>
-            <li>👉 Add new custom FAQs specific to that post</li>
-            <li>👉 Modify imported questions and answers</li>
-            <li>👉 Remove or reorder FAQs per post requirement</li>
+        <h4 class="abrf-h4">🏠 Custom Post-Level FAQ</h4>
+        <p class="abrf-p">Each individual post can also have its own custom FAQ configuration.</p>
+        <ul class="abrf-list">
+            <li><strong>👉</strong> Import FAQs from global configuration</li>
+            <li><strong>👉</strong> Add new custom FAQs specific to that post</li>
+            <li><strong>👉</strong> Modify imported questions and answers</li>
+            <li><strong>👉</strong> Remove or reorder FAQs per post requirement</li>
         </ul>
-        <h6 class="abp_color_theme_gap_xs">🔄 Import & Customization System</h6>
-        <ul class="abp_list_margin_xs">
-            <li>👉 One-click import from global FAQs</li>
-            <li>👉 Fully editable after import</li>
-            <li>👉 Combine global and custom FAQs if needed</li>
-            <li>👉 Control FAQ order and visibility</li>
+        <h4 class="abrf-h4">🔄 Import &amp; Customization System</h4>
+        <ul class="abrf-list">
+            <li><strong>👉</strong> One-click import from global FAQs</li>
+            <li><strong>👉</strong> Fully editable after import</li>
+            <li><strong>👉</strong> Combine global and custom FAQs if needed</li>
+            <li><strong>👉</strong> Control FAQ order and visibility</li>
         </ul>
-        <h6 class="abp_color_theme_gap_xs">⚙️ Smart Behavior</h6>
-        <ul class="abp_list_margin_xs">
+        <h4 class="abrf-h4">⚙️ Smart Behavior</h4>
+        <ul class="abrf-list">
             <li>Global FAQs act as a default knowledge base</li>
             <li>Each post can override or extend FAQs independently</li>
             <li>Global changes do not overwrite custom post-level FAQs</li>
         </ul>
-        <h6 class="abp_color_theme_gap_xs">🚀 Benefits</h6>
-        <ul class="abp_list_margin_xs">
-            <li>👉 Reduces repetitive customer queries</li>
-            <li>👉 Improves user experience with quick answers</li>
-            <li>👉 Saves time with reusable FAQ templates</li>
-            <li>👉 Provides a flexible and scalable system</li>
+        <h4 class="abrf-h4">🚀 Benefits</h4>
+        <ul class="abrf-list">
+            <li><strong>👉</strong> Reduces repetitive customer queries</li>
+            <li><strong>👉</strong> Improves user experience with quick answers</li>
+            <li><strong>👉</strong> Saves time with reusable FAQ templates</li>
+            <li><strong>👉</strong> Provides a flexible and scalable system</li>
         </ul>
-        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/faq_configuration.png">
-            <img class="_img_control" src="#" alt="FAQ Configuration Overview">
-        </div>
-    </div>
+        <figure class="abrf-imgcard">
+            <img src="<?php echo esc_url( ABRF_DOC_URL . '/' ); ?>image/faq_configuration.png" alt="FAQ Configuration Overview">
+            <figcaption>FAQ Configuration Overview</figcaption>
+        </figure>
+    </section>
 <?php

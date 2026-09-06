@@ -2,32 +2,47 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abprf_general">
-        <h3 class="abp_color_theme">General Configuration</h3>
-        <div class="_divider_xs"></div>
-        <label>
-            The General Configuration section provides centralized controls to manage how a post behaves and which features are enabled within the system. From here, you can easily enable or disable key modules and manage related settings without leaving the post details page.
-        </label>
-        <ul class="abp_list_margin_xs">
-            <li>
-                <strong class="_color_theme">👉 Rent Continue ON/OFF:</strong>
-                Enable or disable the rent continuation feature. When enabled, users can extend rental duration without creating a new booking.
-            </li>
-            <li>
-                <strong class="_color_theme">👉 Template Change (Details Page Template):</strong>
-                Select and switch between different post details page templates to control layout, design, and content structure.
-            </li>
-            <li>
-                <strong class="_color_theme">👉 Category Control:</strong>
-                Enable or disable category support for the post type. You can select existing categories, or create new categories directly from this section without leaving the page.
-            </li>
-            <li>
-                <strong class="_color_theme">👉 Location Control:</strong>
-                Enable or disable location features for the post type. You can select available locations from the list or add new locations instantly for better flexibility.
-            </li>
-        </ul>
-        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/general_configuration.png">
-            <img class="_img_control" src="#" alt="General Configuration Overview">
+    <section class="abrf-page" data-abrf-tab="#abrf_general">
+        <div class="abrf-page-head">
+            <h2>⚙️ General Settings (Per Property)</h2>
         </div>
-    </div>
+        <div class="abrf-divider"></div>
+        <p class="abrf-lead">The General Settings tab controls how a single property behaves inside RentalForge. Every setting here overrides the global default for this property only — other properties are not affected.</p>
+        <div class="abrf-tbl-wrap">
+            <table class="abrf-table">
+                <thead>
+                    <tr><th>Field / Option</th><th>What it does</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Rent Continue ?</th>
+                        <td>Turn <strong>ON</strong> to keep renting this property, or <strong>OFF</strong> to close it for new bookings at once. Existing bookings stay unchanged. By default, <strong>ON</strong>.</td>
+                    </tr>
+                    <tr>
+                        <th>Details Page Template</th>
+                        <td>Choose the layout that the property details page uses (grid, group or your own theme layout). This lets different properties look different without editing any code.</td>
+                    </tr>
+                    <tr>
+                        <th>Category</th>
+                        <td>Assign one or more categories to this property. You can pick from existing categories or create a new one right here.</td>
+                    </tr>
+                    <tr>
+                        <th>Location</th>
+                        <td>Assign one or more locations to this property — useful when the same item is available at several branches.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h4 class="abrf-h4">🛠️ How to update general settings</h4>
+        <ol class="abrf-steps">
+            <li>Open the property you want to edit.</li>
+            <li>Go to the <strong>General Settings</strong> tab.</li>
+            <li>Change the switches or selections you need.</li>
+            <li>Click <strong>Update</strong> to save.</li>
+        </ol>
+        <figure class="abrf-imgcard">
+            <img src="<?php echo esc_url( ABRF_DOC_URL . '/' ); ?>image/general_configuration.png" alt="General Configuration Overview">
+            <figcaption>General Configuration Overview</figcaption>
+        </figure>
+    </section>
 <?php

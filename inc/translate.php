@@ -2,14 +2,14 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abprf_translate">
-        <h2 class="abp_color_theme">RentalForge: Translate</h2>
-        <div class="_divider"></div>
-        <i class="_color_7_fs_label_mar_tb_d_block">
-            RentalForge is fully translation-ready and can be translated using any WordPress translation plugin. However, we strongly recommend using the Loco Translate plugin for the best experience and easiest workflow.
-        </i>
-        <h5 class="abp_color_theme">To translate RentalForge:</h5>
-        <ol class="abp_list_margin">
+    <section class="abrf-page" data-abrf-tab="#abrf_translate">
+        <div class="abrf-page-head">
+            <h2>🌍 RentalForge: Translate</h2>
+        </div>
+        <div class="abrf-divider"></div>
+        <p class="abrf-lead">RentalForge is fully translation-ready and can be translated using any WordPress translation plugin. However, we strongly recommend using the Loco Translate plugin for the best experience and easiest workflow.</p>
+        <h4 class="abrf-h4">🌐 To translate RentalForge:</h4>
+        <ol class="abrf-steps">
             <li>Go to <strong>Plugins → Add New</strong> from your WordPress dashboard.</li>
             <li>Search for <strong>Loco Translate</strong>, then install and activate the plugin.</li>
             <li>Navigate to <strong>Loco Translate → Plugins</strong>.</li>
@@ -18,11 +18,7 @@
             <li>Click the <strong>Sync</strong> button to load the latest translatable strings.</li>
             <li>Translate the strings and click <strong>Save</strong>.</li>
         </ol>
-        <i class="_color_7_fs_label_mar_tb_d_block">
-            After completing these steps, most frontend and backend texts used by RentalForge will be translated automatically. Please note that some dynamic content and documentation text may not be translatable.
-        </i>
-        <i class="_color_7_fs_label_mar_tb_d_block">
-            Important: Always store translation files in a safe or custom directory recommended by Loco Translate. Otherwise, your translations may be lost during plugin updates.
-        </i>
-    </div>
+        <p class="abrf-p">After completing these steps, most frontend and backend texts used by RentalForge will be translated automatically. Please note that some dynamic content and documentation text may not be translatable.</p>
+        <div class="abrf-alert abrf-danger">🚫 <strong>Important:</strong> Always store translation files in a safe or custom directory recommended by Loco Translate. Otherwise, your translations may be lost during plugin updates.</div>
+    </section>
 <?php

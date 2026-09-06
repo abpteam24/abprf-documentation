@@ -2,23 +2,23 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abprf_quick_menu">
-        <h2 class="abp_color_theme_gap_xs">🪜 Top Quick Menu</h2>
-        <div class="_divider"></div>
-        <label>
-            The Quick Menu provides fast access to the most commonly used actions, allowing you to create content instantly without navigating through multiple pages.
-        </label>
-        <div class="abp_image" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/quick_menu.png">
-            <img class="_img_control" src="#" alt="Quick Menu Overview">
+    <section class="abrf-page" data-abrf-tab="#abrf_quick_menu">
+        <div class="abrf-page-head">
+            <h2>⚡ Top Quick Menu</h2>
         </div>
-        <label>
-            From this section, you can quickly perform the following actions:
-        </label>
-        <ul class="abp_list_margin">
-            <li>👉 Create a new post with all required fields</li>
-            <li>👉 Add a new property listing with full configuration</li>
-            <li>👉 Create and manage categories for better content organization</li>
-            <li>👉 Add new location data for filtering and management</li>
+        <div class="abrf-divider"></div>
+        <p class="abrf-lead">The Quick Menu provides fast access to the most commonly used actions, allowing you to create content instantly without navigating through multiple pages.</p>
+        <figure class="abrf-imgcard">
+            <img src="<?php echo esc_url( ABRF_DOC_URL . '/' ); ?>image/quick_menu.png" alt="Quick Menu Overview">
+            <figcaption>Quick Menu Overview</figcaption>
+        </figure>
+        <h4 class="abrf-h4">🚀 Quick Actions</h4>
+        <p class="abrf-p">From this section, you can quickly perform the following actions:</p>
+        <ul class="abrf-list">
+            <li><strong>👉 Create a new post</strong> with all required fields</li>
+            <li><strong>👉 Add a new property listing</strong> with full configuration</li>
+            <li><strong>👉 Create and manage categories</strong> for better content organization</li>
+            <li><strong>👉 Add new location data</strong> for filtering and management</li>
         </ul>
-    </div>
+    </section>
 <?php

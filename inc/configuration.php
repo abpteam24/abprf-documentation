@@ -2,17 +2,31 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abprf_configuration">
-        <h2 class="abp_color_theme">Global Configuration</h2>
-        <div class="_divider"></div>
-        <i class="_text_color_1 _fs_label_mar_tb_d_block">
-            Global Configuration allows you to define the default settings for your entire RentalForge system. These settings will be automatically applied across all rental items, properties, vehicles, equipment, and booking resources unless overridden by item-specific configurations.
-        </i>
-        <i class="_text_color_12_fs_label_mar_tb_d_block">
-            RentalForge requires WooCommerce to manage bookings, orders. Before using RentalForge, ensure that WooCommerce is installed and activated. If WooCommerce is not active, RentalForge functionality and admin menus may not be available.
-        </i>
-        <i class="_color_7_fs_label_mar_tb_d_block">
-            After activating RentalForge and completing the initial setup, you will see the Global Configuration dashboard shown below. From here, you can customize system-wide settings, booking behavior, labels, URLs, and other essential options.
-        </i>
-    </div>
+    <section class="abrf-page" data-abrf-tab="#abrf_configuration">
+        <div class="abrf-page-head">
+            <h2>⚙️ Configuration Overview</h2>
+        </div>
+        <div class="abrf-divider"></div>
+        <p class="abrf-lead">Configuration holds the <strong>system-wide defaults</strong> of RentalForge. Values set here apply to every property automatically — and a single property can still override them from its own settings. This lets you manage the look and behaviour of the whole site from one place.</p>
+        <h4 class="abrf-h4">📚 Configuration sections</h4>
+        <div class="abrf-tbl-wrap">
+            <table class="abrf-table">
+                <thead><tr><th>Section</th><th>What it controls</th></tr></thead>
+                <tbody>
+                <tr><td>🛠️ RentalForge</td><td>Main plugin defaults — booking labels, URL slugs, search form layout and general behaviour.</td></tr>
+                <tr><td>📄 PDF (PRO)</td><td>Branding of generated PDF documents — logo, colors, background and terms.</td></tr>
+                <tr><td>📑 Order Lists PDF / CSV (PRO)</td><td>Which columns appear when you download order lists as PDF or CSV.</td></tr>
+                <tr><td>📧 E-mail (PRO)</td><td>Booking confirmation e-mails, PDF tickets, admin notifications and mail templates.</td></tr>
+                <tr><td>✂️ Discount (PRO)</td><td>Global Seasonal and Early Bird discounts plus location-based pricing.</td></tr>
+                <tr><td>🖼️ Slider</td><td>How property image sliders and thumbnails behave on the website.</td></tr>
+                <tr><td>☎️ Contact Information</td><td>Company name, address, phone and e-mail used in documents and footers.</td></tr>
+                <tr><td>🎨 CSS Property</td><td>Colors, border radius and font sizes used by the RentalForge section.</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="abrf-alert abrf-warn">
+            <span class="abrf-alert-ic">⚠️</span>
+            <div><strong>Requirements reminder.</strong> RentalForge requires <strong>WooCommerce</strong> to manage bookings and orders. If WooCommerce is not active, RentalForge menus and functions may not be available — activate it first, then re-visit this screen.</div>
+        </div>
+    </section>
 <?php

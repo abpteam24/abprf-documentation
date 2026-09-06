@@ -2,82 +2,63 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-    <div class="tab_item" data-tabs="#abprf_email">
-        <h2 class="abp_color_theme">Configuration: E-Mail </h2>
-        <h2 class="abp_color_theme"><span class="_mar_r_xs">📧</span>RentalForge - E-Mail Configuration </h2>
-        <div class="_divider"></div>
-        <i class="_color_7_fs_label_mar_tb_d_block">These are customer E-Mail Configuration.</i>
-        <div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.10.email.png"><img class="_img_control" src="#" alt="E-Mail"></div>
-        <table class="abp_fixed_text_left_mt">
-            <tbody>
-            <tr>
-                <th class="_color_theme">Send Mail ?</th>
-                <td colspan="3">Should you wish to mail a traveler Turn the light <strong class="abp_color_theme"> ON</strong> . The mail won`t be sent if <strong class="abp_color_theme"> OFF</strong> . By default, <strong class="abp_color_theme"> ON</strong></td>
-            </tr>
-            <tr>
-                <th class="_color_theme">Send pdf Ticket ?</th>
-                <td colspan="3"> If you would like to email with PDF ticket, Turn <strong class="abp_color_theme"> ON</strong> otherwise the PDF won`t be sent if <strong class="abp_color_theme"> OFF</strong> . By default, <strong class="abp_color_theme"> ON</strong></td>
-                <td colspan="3"> If You want to send pdf ticket mail to traveller Switch ON otherwise pdf not send . Default ON</td>
-            </tr>
-            <tr>
-                <th class="_color_theme">Which status send Mail ?</th>
-                <td colspan="3">Please choose the order status for which the mail will be send.</td>
-            </tr>
-            <tr>
-                <th class="_color_theme">Mail Subject</th>
-                <td colspan="3">Add a subject to your email, please. Alternatively, your site title will be it.</td>
-            </tr>
-            <tr>
-                <th class="_color_theme">Mail Content</th>
-                <td colspan="3">
-                    <span>Please use this shortcode for get real data.</span><br>
-                    <span><strong style="color:#e67c30">#post_name</strong> : In order to print the Transport Name.</span><br>
-                    <span><strong style="color:#e67c30">#client_name</strong> : In order to print the  Traveller Form.</span><br>
-                    <span><strong style="color:#e67c30">#order_id</strong> : In order to print the  Order ID.</span><br>
-                    <span><strong style="color:#e67c30">#pass_id</strong> : In order to print the Traveller ID.</span><br>
-                    <span><strong style="color:#e67c30">#from</strong> : In order to print the  Boarding.</span><br>
-                    <span><strong style="color:#e67c30">#to</strong> : In order to print the  Dropping.</span><br>
-                    <span><strong style="color:#e67c30">#order_date</strong> : In order to print the  Order Date.</span><br>
-                    <span><strong style="color:#e67c30">#status</strong> : In order to print the  Order Status.</span><br>
-                    <span><strong style="color:#e67c30">#payment</strong> : In order to print the  Payment Method.</span><br>
-                    <span><strong style="color:#e67c30">#booking_details</strong> : In order to print the  Booking Details.</span><br>
-                    <span><strong style="color:#e67c30">#rent_details</strong> : In order to print the  Ticket Details.</span><br>
-                    <span><strong style="color:#e67c30">#bill_info</strong> : In order to print the  Billing Information.</span><br>
-                    <span><strong style="color:#e67c30">#price_details</strong> : In order to print the  Total Price.</span><br>
-                </td>
-            </tr>
-            <tr>
-                <th class="_color_theme">Re-send Mail Content</th>
-                <td colspan="3">
-                    <span>Please use this shortcode for get real data.</span><br>
-                    <span><strong style="color:#e67c30">#post_name</strong> : In order to print the  Transport Name.</span><br>
-                    <span><strong style="color:#e67c30">#client_name</strong> : In order to print the  Traveller Form.</span><br>
-                    <span><strong style="color:#e67c30">#order_id</strong> : In order to print the  Order ID.</span><br>
-                    <span><strong style="color:#e67c30">#pass_id</strong> : In order to print the  Traveller ID.</span><br>
-                    <span><strong style="color:#e67c30">#from</strong> : In order to print the  Boarding.</span><br>
-                    <span><strong style="color:#e67c30">#to</strong> : In order to print the  Dropping.</span><br>
-                    <span><strong style="color:#e67c30">#order_date</strong> : In order to print the  Order Date.</span><br>
-                    <span><strong style="color:#e67c30">#status</strong> : In order to print the  Order Status.</span><br>
-                    <span><strong style="color:#e67c30">#payment</strong> : In order to print the  Payment Method.</span><br>
-                    <span><strong style="color:#e67c30">#booking_details</strong> : In order to print the  Booking Details.</span><br>
-                    <span><strong style="color:#e67c30">#rent_details</strong> : In order to print the  Ticket Details.</span><br>
-                    <span><strong style="color:#e67c30">#bill_info</strong> : In order to print the  Billing Information.</span><br>
-                    <span><strong style="color:#e67c30">#price_details</strong> : In order to print the  Total Price.</span><br>
-                </td>
-            </tr>
-            <tr>
-                <th class="_color_theme">Admin Notification Mail</th>
-                <td colspan="3">After an order is placed, if the admin would want to get a PDF ticket, please give a mail address.</td>
-            </tr>
-            <tr>
-                <th class="_color_theme">Mail From Name</th>
-                <td colspan="3"> The email from name should be added here. otherwise it will be Transportation</td>
-            </tr>
-            <tr>
-                <th class="_color_theme">Mail From Mail</th>
-                <td colspan="3"> The email from mail should be added here. otherwise it will be your admin mail.</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+    <section class="abrf-page" data-abrf-tab="#abrf_email">
+        <div class="abrf-page-head">
+            <h2>📧 E-Mail Configuration <span class="abrf-protag">pro</span></h2>
+        </div>
+        <div class="abrf-divider"></div>
+        <p class="abrf-lead">The E-Mail section controls the automatic e-mails your customers receive after a booking. You can switch the mail system on or off, attach a PDF ticket and fully customise the message with the placeholders below.</p>
+        <div class="abrf-tbl-wrap">
+            <table class="abrf-table">
+                <thead><tr><th>Field / Option</th><th>What it does</th></tr></thead>
+                <tbody>
+                <tr><th>Send Mail ?</th><td>Turn the light <strong>ON</strong> to auto-send the booking e-mail to your client. The mail won't be sent if <strong>OFF</strong>. By default, <strong>ON</strong></td></tr>
+                <tr><th>Send pdf Ticket ?</th><td>If you would like to email with PDF ticket, turn <strong>ON</strong> otherwise the PDF won't be sent if <strong>OFF</strong>. By default, <strong>ON</strong></td></tr>
+                <tr><th>Which status send Mail ?</th><td>Please choose the order status for which the mail will be sent.</td></tr>
+                <tr><th>Mail Subject</th><td>Add a subject to your email, please. Alternatively, your site title will be used.</td></tr>
+                <tr>
+                    <th>Mail Content</th>
+                    <td>
+                        <p class="abrf-p">Please use these placeholders to get real data in your e-mail.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#post_name</code> : In order to print the Property Name.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#client_name</code> : In order to print the Client Form.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#order_id</code> : In order to print the Order ID.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#pass_id</code> : In order to print the Client ID.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#from</code> : In order to print the Start Point.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#to</code> : In order to print the End Point.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#order_date</code> : In order to print the Order Date.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#status</code> : In order to print the Order Status.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#payment</code> : In order to print the Payment Method.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#booking_details</code> : In order to print the Booking Details.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#rent_details</code> : In order to print the Ticket Details.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#bill_info</code> : In order to print the Billing Information.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#price_details</code> : In order to print the Total Price.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Re-send Mail Content</th>
+                    <td>
+                        <p class="abrf-p">Please use these placeholders to get real data in your e-mail.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#post_name</code> : In order to print the Property Name.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#client_name</code> : In order to print the Client Form.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#order_id</code> : In order to print the Order ID.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#pass_id</code> : In order to print the Client ID.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#from</code> : In order to print the Start Point.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#to</code> : In order to print the End Point.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#order_date</code> : In order to print the Order Date.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#status</code> : In order to print the Order Status.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#payment</code> : In order to print the Payment Method.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#booking_details</code> : In order to print the Booking Details.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#rent_details</code> : In order to print the Ticket Details.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#bill_info</code> : In order to print the Billing Information.</p>
+                        <p class="abrf-p"><code class="abrf-chip">#price_details</code> : In order to print the Total Price.</p>
+                    </td>
+                </tr>
+                <tr><th>Admin Notification Mail</th><td>After an order is placed, if the admin would want to get a PDF ticket, please give a mail address.</td></tr>
+                <tr><th>Mail From Name</th><td>The email from name should be added here, otherwise the site title will be used.</td></tr>
+                <tr><th>Mail From Mail</th><td>The email from mail should be added here, otherwise it will be your admin mail.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 <?php

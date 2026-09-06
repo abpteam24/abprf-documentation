@@ -2,14 +2,18 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-	<div class="tab_item" data-tabs="#abprf_category_global">
-        <h2 class="abp_color_theme_xs">🏘️RentalForge - Global Category Configuration </h2>
-		<div class="_divider"></div>
-		<i class="_color_7_fs_label_mar_tb_d_block">Here you can create, update, and delete RentalForge categories easily. You will also find category shortcodes, category details, and many other Options.</i>
-		<div class="_mar_tb" data-image-href="<?php echo esc_url(ABPRF_DOC_URL . '/') ?>image/6.1.category.png"><img class="_img_control" src="#" alt="Category"></div>
-		<ul class="abp_list_margin">
-			<li>1. Type Your Category Name here</li>
-			<li>2. Click to Save Category</li>
-		</ul>
-	</div>
+    <section class="abrf-page" data-abrf-tab="#abrf_category_global">
+        <div class="abrf-page-head">
+            <h2>🏘️ RentalForge – Global Category Configuration</h2>
+        </div>
+        <div class="abrf-divider"></div>
+        <p class="abrf-lead">Here you can create, update, and delete RentalForge categories easily. You will also find category shortcodes, category details, and many other Options.</p>
+
+        <div class="abrf-alert abrf-note">💡 Categories help you organize your rental items into logical groups, making them easier to browse and filter on the frontend. Each category also generates its own shortcode that you can place anywhere.</div>
+
+        <ol class="abrf-steps">
+            <li>Type Your Category Name here.</li>
+            <li>Click to Save Category.</li>
+        </ol>
+    </section>
 <?php

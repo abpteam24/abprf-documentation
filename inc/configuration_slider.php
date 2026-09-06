@@ -2,50 +2,27 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-	<div class="tab_item" data-tabs="#abprf_slider">
-        <h2 class="abp_color_theme_xs">🖼️RentalForge - Slider Configuration </h2>
-		<div class="_divider"></div>
-		<i class="_color_7_fs_label_mar_tb_d_block">These are describe Slider Configuration .</i>
-		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.13.slider.png"><img class="_img_control" src="#" alt="Slider"></div>
-		<table class="abp_fixed_text_left_mt">
-			<tbody>
-			<tr>
-				<th class="_color_theme">Slider/Thumbnail ?</th>
-				<td colspan="3">Please turn the slider switch <strong class="abp_color_theme"> ON</strong> or <strong class="abp_color_theme"> OFF</strong> if you are only showing the thumbnail . By default, <strong class="abp_color_theme"> ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Slider Theme</th>
-				<td colspan="3">Please choose the theme style for the slider.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Visible Indicator ?</th>
-				<td colspan="3">If you hide Indicator , please Switch <strong class="abp_color_theme"> OFF</strong> or to Show Indicator Switch <strong class="abp_color_theme"> ON</strong> . By default, <strong class="abp_color_theme"> ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Indicator Type</th>
-				<td colspan="3"> Please Select Slider Indicator Type Default Icon. Default Icon</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Visible Showcase ?</th>
-				<td colspan="3"> If you hide Showcase , please Switch <strong class="abp_color_theme"> OFF</strong> or to Show Showcase Switch <strong class="abp_color_theme"> ON</strong>. By default,&nbsp;<strong class="abp_color_theme">ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Showcase Position</th>
-				<td colspan="3">Please Select Slider Showcase Position . Default Right</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Visible Popup ?</th>
-				<td colspan="3">If you hide popup slider , please Switch <strong class="abp_color_theme"> OFF</strong>&nbsp;or to Show popup slider Switch&nbsp;<strong class="abp_color_theme"> ON</strong>. By default,&nbsp;<strong class="abp_color_theme">ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Popup Image Indicator</th>
-				<td colspan="3">f you hide Popup Image Indicator , please Switch <strong class="abp_color_theme"> OFF</strong>&nbsp;or to Show Popup Image Indicator Switch&nbsp;<strong class="abp_color_theme"> ON</strong>. By default,&nbsp;<strong class="abp_color_theme">ON</strong></td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Popup Icon Indicator</th>
-				<td colspan="3">If you hide Popup Icon Indicator , please Switch <strong class="abp_color_theme"> OFF</strong>&nbsp;or to Show Popup Icon Indicator Switch&nbsp;<strong class="abp_color_theme"> ON</strong>. By default,&nbsp;<strong class="abp_color_theme">ON</strong></td>
-			</tr>
-			</tbody>
-		</table>
-	</div>
+    <section class="abrf-page" data-abrf-tab="#abrf_slider">
+        <div class="abrf-page-head">
+            <h2>🖼️ RentalForge - Slider Configuration</h2>
+        </div>
+        <div class="abrf-divider"></div>
+        <p class="abrf-lead">The Slider section controls how the images of a property are shown on its details page — as a full slider, a thumbnail-only preview, or with a fullscreen popup. All changes apply instantly to the whole site.</p>
+        <div class="abrf-tbl-wrap">
+            <table class="abrf-table">
+                <thead><tr><th>Field / Option</th><th>What it does</th></tr></thead>
+                <tbody>
+                <tr><th>Slider/Thumbnail ?</th><td>Please turn the slider switch <strong>ON</strong> or <strong>OFF</strong> if you are only showing the thumbnail. By default, <strong>ON</strong></td></tr>
+                <tr><th>Slider Theme</th><td>Please choose the theme style for the slider.</td></tr>
+                <tr><th>Visible Indicator ?</th><td>If you hide the indicator, please switch <strong>OFF</strong>; or to show the indicator switch <strong>ON</strong>. By default, <strong>ON</strong></td></tr>
+                <tr><th>Indicator Type</th><td>Please select the slider indicator type. Default: <strong>Default Icon</strong></td></tr>
+                <tr><th>Visible Showcase ?</th><td>If you hide the showcase, please switch <strong>OFF</strong>; or to show the showcase switch <strong>ON</strong>. By default, <strong>ON</strong></td></tr>
+                <tr><th>Showcase Position</th><td>Please select the slider showcase position. Default: <strong>Right</strong></td></tr>
+                <tr><th>Visible Popup ?</th><td>If you hide the popup slider, please switch <strong>OFF</strong>; or to show the popup slider switch <strong>ON</strong>. By default, <strong>ON</strong></td></tr>
+                <tr><th>Popup Image Indicator</th><td>If you hide the Popup Image Indicator, please switch <strong>OFF</strong>; or to show the Popup Image Indicator switch <strong>ON</strong>. By default, <strong>ON</strong></td></tr>
+                <tr><th>Popup Icon Indicator</th><td>If you hide the Popup Icon Indicator, please switch <strong>OFF</strong>; or to show the Popup Icon Indicator switch <strong>ON</strong>. By default, <strong>ON</strong></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 <?php

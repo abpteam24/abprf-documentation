@@ -2,31 +2,28 @@
 	if ( ! defined( 'ABSPATH' ) ) {
 		exit; // Exit if accessed directly
 	} ?>
-	<div class="tab_item" data-tabs="#abprf_contact">
-		<h2 class="abp_color_theme">Configuration: Contact Information </h2>
-        <h2 class="abp_color_theme"><span class="_mar_r_xs">☎️ </span>RentalForge - Contact Information Configuration </h2>
-		<div class="_divider"></div>
-		<i class="_color_7_fs_label_mar_tb_d_block">These are describe Contact Information Configuration .</i>
-		<div class="_mar_tb" data-image-href="<?php echo esc_url( ABPRF_DOC_URL . '/' ) ?>image/5.12.contact_info.png"><img class="_img_control" src="#" alt="Contact Information "></div>
-		<table class="abp_fixed_text_left_mt">
-			<tbody>
-			<tr>
-				<th class="_color_theme">Company Name</th>
-				<td colspan="3"> Kindly enter the name of your company here.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Address</th>
-				<td colspan="3">Add the whole address of your company, please.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">Contact Number</th>
-				<td colspan="3">Add your company`s phone number here, please.</td>
-			</tr>
-			<tr>
-				<th class="_color_theme">E-mail</th>
-				<td colspan="3">Kindly enter your business email address here.</td>
-			</tr>
-			</tbody>
-		</table>
-	</div>
+    <section class="abrf-page" data-abrf-tab="#abrf_contact">
+        <div class="abrf-page-head">
+            <h2>☎️ Contact Information Configuration</h2>
+        </div>
+        <div class="abrf-divider"></div>
+        <p class="abrf-lead">The Contact section stores your business details once, in one place. These values are then used automatically in the PDF documents, billing information and e-mails — enter them once and they follow everywhere.</p>
+        <div class="abrf-tbl-wrap">
+            <table class="abrf-table">
+                <thead><tr><th>Field / Option</th><th>What it does</th></tr></thead>
+                <tbody>
+                <tr><th>Company Name</th><td>The name of your business as it should appear on documents.</td></tr>
+                <tr><th>Address</th><td>The full street address of your business.</td></tr>
+                <tr><th>Contact Number</th><td>The phone number customers can call.</td></tr>
+                <tr><th>E-mail</th><td>The business e-mail address used on documents and printed tickets.</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <h4 class="abrf-h4">✅ Where this information is used</h4>
+        <ul class="abrf-list">
+            <li><strong>👉 PDF documents and tickets:</strong> shown on generated PDF documents and tickets <span class="abrf-protag">pro</span>.</li>
+            <li><strong>👉 Billing information:</strong> used in the billing information section of bookings.</li>
+            <li><strong>👉 E-mail sender details:</strong> used as the sender details for the booking e-mails.</li>
+        </ul>
+    </section>
 <?php
